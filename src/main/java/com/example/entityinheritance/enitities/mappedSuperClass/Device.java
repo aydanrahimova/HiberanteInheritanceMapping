@@ -12,7 +12,7 @@ import lombok.experimental.FieldDefaults;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public abstract class Device {
     @Id
-    private Long id;
+    Long id;
     String brand;
     String model;
     double price;
