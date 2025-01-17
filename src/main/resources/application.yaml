@@ -1,0 +1,9 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: true
+  datasource:
+    password: 2810
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/matrix161
